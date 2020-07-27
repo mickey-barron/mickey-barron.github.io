@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Metadata -->
+<meta charset = "UTF-8" />
+<meta name = "description" content = "Novel Healthcare Solutions provides consulting services backed by experience to help you make informed and impactful decisions. Contact us today to learn how we can help you." />
+<meta name = "keywords" content = "healthcare, consulting, solutions, medical, administration, management, nhs" />
+<meta name = "author" content = "Novel Healthcare Solutions" />
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+<meta name = "robots" content = "index, follow, noarchive" />
+<meta http-equiv="Cache-Control" content="no-store" />
+
+<!-- Supporting Libraries -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap&family=Material+Icons" rel="stylesheet">
+
+<!-- Style Sheet -->
+<link rel = "stylesheet" type = "text/css" href = "assets/style.css?ver=0.1" /> 
+
+
+
+    </head>
+    <body>
+        <div class = "fixedContainer"><nav class = "accent bottom"><div class = "logo"><p>NOVEL HEALTHCARE SOLUTIONS</p> <img class = "logo" alt = "Novel Healthcare Solutions Logo" src = "assets/images/logo.svg"/></div> <div class = "divider"></div> <i id = "mobileMenuIcon" class="material-icons">menu</i>  <div class = "links"><ul><li><a href = "#home">Home</a></li><li><a href = "#about">About</a></li><li><a href = "#services">Services</a></li><li><a href = "#testimonials">Testimonials</a></li><li><a href = "#contact">Contact</a></li></ul>  </div></nav></div> 
+        <div id = "home" class = "contentArea">
+            <div class = "tile accent bkg1 title main jumbo accent bottom">
+                <img class = "logo" alt = "Novel Healthcare Solutions Logo" src = "assets/images/logo.svg"/>
+                <h1> Welcome to Novel Healthcare Solutions </h1>
+                <div class = "divider"> </div>
+                <p> We provide provides consulting services backed by experience to help you make informed and impactful decisions.</p>
+            </div>
+            <div id = "about" class = "tile accent main bottom">
+                <h2> About Us </h2>
+                <p> We are a team of experienced management professionals and clinicians that have worked to develop state-of-the-art programs that deliver high-quality outcomes consistantly and reliably. </p>
+                <div class = "flexSub">
+                    <div class = "profile tile mini accent full"> <img class = "accent border" alt = "Stephanie Kelly BSN, NE-BC" src = "assets/images/headshot_sk.jpg"/><h4>Stephanie Kelly BSN, NE-BC</h4><p>Program Director</p><p>Orthopedic Service Line at Saint Francis Hospital & Medical Center</p></div><div class = "profile tile mini accent full"> <img class = "accent border" alt = "Maureen Geary" src = "assets/images/headshot_mg.jpg"/><h4>Maureen Geary</h4><p>Program Manager</p><p>Orthopedic Service Line at Saint Francis Hospital & Medical Center</p></div><div class = "profile tile mini accent full"> <img class = "accent border" alt = "Dr. Steven F. Schutzer, M.D." src = "assets/images/headshot_sfs.jpg"/><h4>Dr. Steven F. Schutzer, M.D.</h4><p>Physician Executive</p><p>Orthopedic Service Line at Saint Francis Hospital & Medical Center</p></div>                </div>
+            </div>
+            <div id = "services" class = "flexSub main">
+                <div class = "tile half accent bottom">
+                    <h2> Services </h2>
+                    <p> We provide a variety of consulting services to medical professionals and institutions to help you develop an effective and valuable program. Our services include: </p>
+                    <ul>
+                        <li> Site visitation </li>
+                        <li> Protocol development </li>
+                        <li> Protocol evaluation </li>
+                        <li> Program development </li>
+                        <li> Program evaluation </li>
+                        <li> Space planning </li>
+                        <li> And more </li>
+                    </ul>
+                    <div class = "divider"> </div>
+                    <p> For each customer, we prepare a comprehensive report with our findings and recommendations to enable you to make the best decision for your program. </p>
+                </div>
+                <div class = "tile half accent decorative bottom bkg2 jumbo">
+                </div>
+
+            </div>
+            <div id = "testimonials" class = "tile accent main bottom">
+                <h2> Testimonials </h2>
+                <div class = "carousel bkg3"> 
+                    <div class = "slide  accent full">
+                        <h6 id = "testimonial"></h6>
+                        <p id = "customer"></p>
+                        <i id = "test_left" class = "navButton material-icons">chevron_left</i>
+                        <i id = "test_right" class = "navButton material-icons">chevron_right</i>
+                        <div id = "testNavDots"></div>
+                    </div>
+                </div>
+            </div>
+            <div id = "contact" class = "tile accent main bottom">
+                <h2> Contact Us </h2>
+                    <p> Ready to get started? Feel free to give us a call at  <a href = "tel:+18607144861">+1 (860) 714 - 4861</a> or send us an email by filling out the form below. </p>
+                    <div class = "divider"> </div>
+                <!-- <div class = "wrapper" id = "contactWrapper"> -->
+                    <form id = "contactForm">
+                        <div class = "shortInputs">
+                            <div class = "inputGroup req">
+                                <p class = "label"> Name </p>
+                                <input type = "text", placeholder = "Marsha Jones", id = "name"></input>
+                                <aside>*</aside>
+                            </div>
+                            <div class = "inputGroup">
+                                <p class = "label"> Company </p>
+                                <input type = "text", placeholder = "Johnson Hospital & Medical Center", id = "company"></input>
+                                
+                            </div>
+                        </div>
+                        <div class = "shortInputs">
+                            <div class = "inputGroup req">
+                                <p class = "label"> Title </p>
+                                <input type = "text", placeholder = "Mrs., Dr., Ms., Mr.,", id = "title"></input>
+                                <aside>*</aside>
+
+                            </div>
+                            <div class = "inputGroup">
+                                <p class = "label"> Position </p>
+                                <input type = "text", placeholder = "President", id = "position"></input>
+                            </div>
+                            <div class = "inputGroup req">
+                                <p class = "label"> Zip Code </p>
+                                <input type = "text", placeholder = "02115", id = "zip"></input>
+                                <aside>*</aside>
+                            </div>
+                        </div>
+                        <div class = "shortInputs">
+                            <div class = "inputGroup req">
+                                <p class = "label"> Email </p>
+                                <input type = "text", placeholder = "jonesm@johnsonhealthcare.org", id = "email"></input>
+                                <aside>*</aside>
+                            </div>
+                            <div class = "inputGroup">
+                                <p class = "label"> Phone Number </p>
+                                <input type = "text", placeholder = "(617) 985 - 2150", id = "phone"></input>
+                            </div>
+                        </div>
+                        <div class = "inputGroup req">
+                            <p class = "label"> Subject </p>
+                            <input type = "text", placeholder = "Inquiry for Site Visit", id = "subject"></input>
+                            <aside>*</aside>
+                        </div>
+                        <div class = "inputGroup textArea req">
+                            <p class = "label"> Message </p>
+                            <textarea rows = "7" id = "message"></textarea>
+                            <aside>*</aside>
+                        </div>
+                        <div class = "basicInputGroup">
+                            <input type="checkbox" id="agreement" name="agreement" value="">
+                            <label for="agreement"> I agree to the <a href = "#"> Terms & Conditions</a>, <a href = "#"> Privacy Policy</a>, and <a href = "#"> Disclaimer</a>. </label><aside>*</aside><br>
+                        </div>
+                        
+                        <br>
+                        <div class = "btn accent full">
+                            <div href = "#submit" id = "submit"> Submit </div>
+                        </div>
+                        <br>
+                        <p> Required fields are denoted with a trailing asterisk *</p>
+                        
+                    </form>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class = "fixedContainer accent full" id ="contactWidgetContainer"> 
+            <div class = "contact widget" id = "contactWidget">
+                    <i id = "contactWidgetButton" class = "material-icons">phone</i>
+                    <a href = "tel:+18607144861" id = "contactInfo">+1 (860) 714 - 4861</a>
+            </div>
+        </div>
+        <div class = "fixedContainer accent full" id="notificationWidgetContainer">
+            <div class = "notification widget" id = "notificationWidget">
+                <i id = "notificationWidgetIcon" class = "materialIcons"> </i>
+                <p id = "notificationWidgetMessage"> </p>
+            </div>
+        </div>
+        <div class = "fixedContainer accent full" id="infoWidgetContainer">
+            <div id = "contactFormResponse"> <i id = "notificationIcon" class = "material-icons"></i> <p></p> <i class = "material-icons" id = "infoCloseButton">close</i></div>
+        </div>
+
+        <footer>
+    <div class = "contentArea">
+        <div class = "tile">
+                <p>&copy 2020 Novel Healthcare Solutions, LLC </p> <br>
+                <p><a href = "#" id = "privacy"> Privacy Policy </a> </p>
+                <p><a href = "#" id = "termsofuse"> Terms of Use </a> </p>
+                <p><a href = "#" id = "disclaimer">Disclaimer </a> </p>
+            </div>    
+        <div class = "tile">
+            <p>SITE MAP</p> <br>
+            <p><a href = "#home">Home</a></p><p><a href = "#about">About</a></p><p><a href = "#services">Services</a></p><p><a href = "#testimonials">Testimonials</a></p><p><a href = "#contact">Contact</a></p>        </div>
+        
+    </div>
+</footer>        <script src = "assets/main.js" type = "text/javascript"></script>      </body>
+</html>
