@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 :root{
     --color-primary: #c4c5ff;
     --color-primary-light: #e1e1ff;
@@ -968,6 +975,48 @@ i#infoCloseButton{
     right:0;
 }
 
+.tileList > li {
+    max-width: 450px;
+    width: 450px;
+    margin-top: 20px;
+    background-color: var(--color-primary-dark-mid);
+    color: var(--color-light);
+    padding: 18px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.tileList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    list-style: none;
+}
+.tileList > li > span {
+    font-size: 36px;
+    padding-right: 18px;
+}
+
+.tileList > li:hover {
+    background-color: var(--color-accent-dark);
+}
+
 @-webkit-keyframes expandNotification{
     0%{
         bottom: 3vh;
@@ -1392,8 +1441,9 @@ i#infoCloseButton{
         margin-right: 10px;
         margin-left: 10px;
     }
-    .tile ul{
-        padding-left: 60px;
-    }
 
+    .tileList > li {
+        max-width: 80%;
+        width: auto;
+    }
 }
